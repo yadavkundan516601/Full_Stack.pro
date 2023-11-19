@@ -38,3 +38,28 @@ React folder structure
 ![Example](https://blog.webdevsimplified.com/articleAssets/2022-07/react-folder-structure/beginner.png)
 
 - [Full Guide on How to Structure your React project](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
+
+### React element creation and variables
+
+```javascript
+// Custom react element creation
+const reactElement = React.createElement(
+  "a",
+  {
+    href: "https://www.google.com",
+    target: "_blank",
+  },
+  "click me to visit google"
+);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    {/* using the custom element */}
+    {reactElement}
+  </React.StrictMode>
+);
+```
+
+Here, it took three parameters `tag`, `attributes object` and `children or text`
+
+> Variables in react can be used by `{}`
