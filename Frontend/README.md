@@ -63,3 +63,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 Here, it took three parameters `tag`, `attributes object` and `children or text`
 
 > Variables in react can be used by `{}`
+> Note: only write evaluated expression within curly braces
