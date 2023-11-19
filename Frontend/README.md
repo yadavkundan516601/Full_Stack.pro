@@ -4,12 +4,37 @@ author: kundan <yadavkundan516601@gmail.com>
 category: Javascript, react
 ---
 
-## React installation using vite
+## React Basics
 
-There are many ways to install react app but here we are installing `react` app using `vite`.
+### React installation using vite
+
+- There are many ways to install react app but here we are installing `react` app using `vite`.
 
 ```bash
+#install using vite
 npm create vite@latest
+
+#Now install the node modules
+npm install
 ```
 
- Now install the node modules
+- To run the `react` app use the script
+
+```bash
+npm run dev
+```
+
+### File structure (understanding the flow of react)
+
+![React file structure](./images/Screenshot%20from%202023-11-19%2013-24-18.png)
+
+React folder structure
+
+> Points to remember while creating a component.
+>
+> - Use `Camelcase` to name the `file` & `function` to be exported/imported.
+> - Use name `.jsx` in case of `vite`.
+
+![Example](https://blog.webdevsimplified.com/articleAssets/2022-07/react-folder-structure/beginner.png)
+
+- [Full Guide on How to Structure your React project](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
